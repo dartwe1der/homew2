@@ -1,0 +1,69 @@
+body {
+   font-family: "Roboto", sans-serif;
+   color: #434455;
+   background-color: #FFFFFF;
+   text-decoration-line: none;
+   font-size: 16px;
+}
+.top {
+   background-color: #2e2f42;
+}
+.otm {
+   background-color: #f4f4fd;
+}
+.size {
+   font-size: inherit;
+   line-height: 1.5;
+   font-family: inherit;
+}
+h1 {
+   font-weight: bold;
+   font-size: 56px;
+   font-family: inherit;
+   color: #FFFFFF;
+}
+a {
+   text-decoration-line: inherit;
+   color: inherit;
+}
+a:hover {
+   color: #404BBF;
+}
+.act > a:active {
+   color: #404BBF;
+}
+span {
+   color: #4d5ae5;
+}
+nav > a {
+   text-transform: uppercase;
+   font-size: 18px;
+}
+footer > a {
+   font-size: 18px;
+   text-transform: uppercase;
+   color: #f4f4fd;
+}
+footer > p {
+   color: #f4f4fd;
+}
+button {
+   border-radius: 4px;
+   width: 169px;
+   height: 56px;
+   background-color: #4D5AE5;
+   color: #FFFFFF;
+}
+button:hover {
+   background-color: #404BBF;
+}
+h2 {
+   font-family: inherit;
+   font-weight: 700;
+   font-size: 36px;
+}
+h3 {
+   font-family: inherit;
+   font-weight: 500;
+   font-size: 20px;
+}
