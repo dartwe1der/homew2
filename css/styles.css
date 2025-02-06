@@ -3,6 +3,7 @@ body {
    color: #434455;
    background-color: #FFFFFF;
    text-decoration-line: none;
+   letter-spacing: 0.02em;
    font-size: 16px;
 }
 .top {
@@ -21,6 +22,7 @@ h1 {
    font-size: 56px;
    font-family: inherit;
    color: #FFFFFF;
+   line-height: 1.07;
 }
 a {
    text-decoration-line: inherit;
@@ -36,19 +38,30 @@ span {
    color: #4d5ae5;
 }
 nav > a {
+   font-family: "Raleway", sans-serif;
    text-transform: uppercase;
+   font-weight: bold;
    font-size: 18px;
+   letter-spacing: 0.03em;
+   line-height: 1.17;
 }
-footer > a {
+.foot > a {
+   font-family: "Raleway", sans-serif;
+   letter-spacing: 0.03em;
+   font-weight: bold;
    font-size: 18px;
    text-transform: uppercase;
    color: #f4f4fd;
 }
-footer > p {
+.foot > p {
    color: #f4f4fd;
+}
+.foot {
+   background-color: #2e2f42;
 }
 button {
    border-radius: 4px;
+   letter-spacing: 0.04em;
    width: 169px;
    height: 56px;
    background-color: #4D5AE5;
@@ -59,11 +72,19 @@ button:hover {
 }
 h2 {
    font-family: inherit;
-   font-weight: 700;
+   font-weight: bold;
    font-size: 36px;
+   line-height: 1.11;
 }
 h3 {
    font-family: inherit;
    font-weight: 500;
    font-size: 20px;
+}
+.sect-p {
+   font-family: inherit;
+   letter-spacing: inherit;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
 }
