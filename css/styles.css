@@ -2,90 +2,145 @@ body {
    font-family: "Roboto", sans-serif;
    color: #434455;
    background-color: #FFFFFF;
-   text-decoration-line: none;
    letter-spacing: 0.02em;
    font-size: 16px;
 }
-.top {
+.logo {
+   font-family: "Raleway", sans-serif;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
+   text-decoration-line: none;
+}
+.stdio {
+   color: #2e2f42;
+}
+.stdio:hover {
+   color: #404BBF;
+}
+.nav-li {
+   text-decoration-line: none;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+li > .nav-li:hover {
+   color: #404bbf;
+}
+li > .nav-li:active {
+   color: #404bbf;
+}
+.padre {
+   font-style: normal;
+}
+.padro {
+   text-decoration-line: inherit;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+li > .padro:hover {
+   color: #404bbf;
+}
+li > .padro:active {
+   color: #404bbf;
+}
+.huy {
    background-color: #2e2f42;
 }
-.otm {
-   background-color: #f4f4fd;
-}
-.size {
-   font-size: inherit;
-   line-height: 1.5;
-   font-family: inherit;
-}
-h1 {
-   font-weight: bold;
+.gavno {
    font-size: 56px;
-   font-family: inherit;
-   color: #FFFFFF;
    line-height: 1.07;
+   text-align: center;
+   letter-spacing: inherit;
+   color:#FFFFFF;
 }
-a {
-   text-decoration-line: inherit;
-   color: inherit;
+.butgav {
+   width: 169px;
+   height: 56px;
+   font-family: inherit;
+   background-color: #4D5AE5;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #FFFFFF;
+   cursor: pointer;
 }
-a:hover {
-   color: #404BBF;
+.huy > .butgav:hover {
+   background-color:#404BBF;
 }
-.act > a:active {
-   color: #404BBF;
+.huy > .butgav:active {
+   background-color:#404BBF;
 }
-span {
-   color: #4d5ae5;
+.galava {
+   font-weight: 500;
+   font-size: 20;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
 }
-nav > a {
-   font-family: "Raleway", sans-serif;
-   text-transform: uppercase;
-   font-weight: bold;
-   font-size: 18px;
-   letter-spacing: 0.03em;
-   line-height: 1.17;
+.pogolovi {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
 }
-.foot > a {
-   font-family: "Raleway", sans-serif;
-   letter-spacing: 0.03em;
-   font-weight: bold;
-   font-size: 18px;
-   text-transform: uppercase;
-   color: #f4f4fd;
+.sect {
+   background-color: #F4F4FD;
 }
-.foot > p {
-   color: #f4f4fd;
+.golov {
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: #2e2f42;
+}
+.list {
+   background-color: #FFFFFF;
+}
+.parag {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+.glav {
+   font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
+   color: #2e2f42;
+}
+.minglav {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+}
+.paraq {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
 }
 .foot {
    background-color: #2e2f42;
 }
-button {
-   border-radius: 4px;
-   cursor: pointer;
-   letter-spacing: 0.04em;
-   width: 169px;
-   height: 56px;
-   background-color: #4D5AE5;
-   color: #FFFFFF;
+.spn {
+   color: #F4F4FD;
 }
-button:hover {
-   background-color: #404BBF;
-}
-h2 {
-   font-family: inherit;
-   font-weight: bold;
-   font-size: 36px;
-   line-height: 1.11;
-}
-h3 {
-   font-family: inherit;
-   font-weight: 500;
-   font-size: 20px;
-}
-.sect-p {
-   font-family: inherit;
-   letter-spacing: inherit;
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
+.par {
+   line-height: 1.5;
+   color: #F4F4FD;
+   letter-spacing: 0.02em;
 }
