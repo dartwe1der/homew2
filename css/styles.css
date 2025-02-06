@@ -32,7 +32,7 @@ body {
 li > .nav-li:hover {
    color: #404bbf;
 }
-li > .nav-li:active {
+li > .nav-li:focus {
    color: #404bbf;
 }
 .padre {
@@ -48,7 +48,7 @@ li > .nav-li:active {
 li > .padro:hover {
    color: #404bbf;
 }
-li > .padro:active {
+li > .padro:focus {
    color: #404bbf;
 }
 .huy {
@@ -58,12 +58,10 @@ li > .padro:active {
    font-size: 56px;
    line-height: 1.07;
    text-align: center;
-   letter-spacing: inherit;
+   letter-spacing: 0.02em;
    color:#FFFFFF;
 }
 .butgav {
-   width: 169px;
-   height: 56px;
    font-family: inherit;
    background-color: #4D5AE5;
    font-weight: 500;
@@ -76,12 +74,12 @@ li > .padro:active {
 .huy > .butgav:hover {
    background-color:#404BBF;
 }
-.huy > .butgav:active {
+.huy > .butgav:focus {
    background-color:#404BBF;
 }
 .galava {
    font-weight: 500;
-   font-size: 20;
+   font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
