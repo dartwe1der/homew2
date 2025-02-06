@@ -61,6 +61,7 @@ nav > a {
 }
 button {
    border-radius: 4px;
+   cursor: pointer;
    letter-spacing: 0.04em;
    width: 169px;
    height: 56px;
